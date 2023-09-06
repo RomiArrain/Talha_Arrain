@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 B4.py')
+    os.system('python2 Talha_Arrain.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -357,7 +357,7 @@ def pb():
 	print(S+'BlackMafia')     
 	print
 	raw_input(R + 'Back')
-	os.system('python2 B4.py')
+	os.system('python2 Talha_Arrain.py')
 if __name__=='__main__':
     login()
 
